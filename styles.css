@@ -1,0 +1,79 @@
+.payment-page {
+    padding: 16px 24px;
+    width: 450px;
+    border: 1px solid lightgray;
+    border-radius: 12px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 2px solid lightgrey;
+}
+
+.txn-id {
+    padding: 8px;
+    border-bottom: 2px solid lightgray;
+    font-size: small;
+}
+
+.name {
+    padding: 8px;
+    color: rgb(38, 186, 186);
+}
+
+.app-no {
+    padding: 8px 8px 20px;
+    font-size: small;
+    font-weight: bold;
+    border-bottom: 2px solid lightgray;
+}
+
+.txn-details {
+    padding: 12px 8px;
+}
+
+.txn-details-header {
+    font-style: oblique;
+    font-weight: bold;
+    color: gray;
+}
+
+.fee-details {
+    font-size: small;
+    font-weight: bold;
+    padding: 12px 0px 0px;
+}
+
+.note-section {
+    height: 80px;
+    background-color: rgb(249, 239, 229);
+    border-radius: 6px;
+    margin: 16px 0px 0px;
+    padding: 8px;
+    color: grey;
+}
+
+.buttons {
+    padding: 0px 8px;
+    display: flex;
+    gap: 8px;
+}
+
+.cancel-btn, .pay-btn {
+    padding: 6px;
+    color: white;
+    font-weight: 10;
+    width: 50%;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.cancel-btn {
+    background-color: rgb(246, 58, 58);
+}
+
+.pay-btn {
+    background-color: rgb(26, 147, 68);
+}
